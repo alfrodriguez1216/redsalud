@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registro_consultorio</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css"  href="..//css/Estilo.css">
+<link rel="shortcut icon" href="../imagenes/Logo.png" type="image/x-icon">
+<header>
+  <div class="container d-flex  align-items-center py-1">
+    <img src="..//imagenes/logo.png" alt="Logo de la empresa">
+    <hr>
+    <hr>
+    <hr>  
+    <img src="../imagenes/Ubicacion.png" >
+    <img src="../imagenes/Direccion.png">
+    <hr>
+    <img src="../imagenes/Facebook.png" >
+    <img src="../imagenes/Instragram.png" >
+    <img src="../imagenes/Twitter.png" >
+    
+
+  </div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto justify-content-center">
+        <li class="nav-item active">
+          <a class="negrita nav-link" href="../Formularios/Inicio.html" style="color: white;">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="negrita nav-link" href="../Formularios/Quienes somos.html" style="color: white;">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="negrita nav-link" href="../Formularios/Portafolio_Medico.html" style="color: white;">Portafolio Medico</a>
+        </li>
+        <li class="nav-item">
+          <a class="negrita nav-link" href="../Formularios/NOTICIAS.HTML" style="color: white;">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="negrita nav-link" href="../Formularios/Contactenos.html" style="color: white;">Contactenos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</br>
+<a href="../formularios/LOGIN.html">
+  <div class="row">
+    <div class="col-md-9"></div>
+    <!--<div class="col-md-10 d-flex align-items-center justify-content-center"> -->
+          <div class="negrita bg-custom rounded-pill text-white p-1">
+        <h3>AGENDA TU CITA</h3>
+           </div>
+    </div>
+  </div>
+  </a>
+</br>
+
+<div class="row">
+  <div class="col-md-1 ">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav flex-column">
+          
+          <li class="negrita nav-item">
+            <a class="nav-link" href="../formularios/REGISTRO_CITA.html">Citas Medicas </a> 
+          </li>
+          <li class="negrita  nav-item">
+            <a class="nav-link" href="../Formularios/REGISTRO MEDICO.html">Medico</a> 
+          </li>
+          <li class="negrita nav-item active">
+            <a class="nav-link" href="../Formularios/REGISTRO_CONSULTORIO.html">Consultorios</a> 
+          </li>
+          <li class="negita nav-item">
+            <a class="nav-link" href="../Formularios/REGISTRO_MEDICAMENTO.html">Medicamentos</a> 
+          </li>
+          <li class="negrita nav-item">
+            <a class="nav-link" href="../Formularios/REGISTRO_TRAMIENTO.html">Tratamientos</a> 
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </nav>
+  
+  
+  <!-- Nueva columna para el formulario -->
+  <div class="col-md-8">
+          <div class="container">
+                  <div class="card">
+                  <div class="card-header  text-center">
+                      <h2 class="negrita text-white">REGISTRO DE CONSULTORIO</h2>
+                  </div>
+                  <!-- Formulario -->
+                  <form id="formulario">
+                      <div class="container fluid mt-3">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group text-white">
+                                <label class="negrita" for="Numero">Numero:</label>
+                                <select class="form-control" id="Numero" name="Numero" required>
+                                  <option value="">Seleccione una especialidad</option>
+                                  <option value="101">101</option>
+                                  <option value="102">102</option>
+                                  <option value="201">201</option>
+                                  <option value="202">202</option>
+                                </select>  
+                            
+                                  </div>
+                              
+                                  <div class="form-group text-white">
+                                    <label class="negrita" for="especialidad">Especialidad:</label>
+                                    <select class="form-control" id="especialidad" name="especialidad" required>
+                                      <option value="">Seleccione una especialidad</option>
+                                      <option value="ginecologia">Ginecología</option>
+                                      <option value="psiquiatria">Psiquiatría</option>
+                                      <option value="pediatria">Pediatría</option>
+                                      <option value="optometria">Optometría</option>
+                                    </select>
+                                  </div>
+                              
+
+                                  <div class="form-group text-white">
+                                    <label class="negrita" for="consultorio">Consultorio:</label>
+                                    <select class="form-control" id="consultorio" name="consultorio" required>
+                                      <option value="">Seleccione un consultorio</option>
+                                      <option value="101">101</option>
+                                      <option value="201">201</option>
+                                      <option value="302">302</option>
+                                    </select>    
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group text-white">
+                                    <label class="negrita" for="profesional">Profesional Asignado:</label>
+                                    <select class="form-control" id="profesional" name="profesional" required>
+                                      <option value="">Seleccione un médico</option>
+                                      <option value="andres Martinez">Andrés Martínez</option>
+                                      <option value="wilson Aldana">Wilson Aldana</option>
+                                      <option value="beatriz Maldonado">Beatriz Maldonado</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group text-white">
+                                    <label class="negrita" for="clinica">Clinica:</label>
+                                    <input type="text" class="form-control" id="clinica">
+                              </div>
+                              <div class="form-group text-white">
+                                <label class="negrita" for="Area">Area:</label>
+                                <input type="text" class="form-control" id="Area">
+                          </div>
+                              </div>
+                          </div>
+
+                          <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-danger">Registrar Consultorio</button>
+                          </div>
+                            </div>
+                          
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>  
+  </div> <!-- Cierre de la columna para el formulario -->
+</div> <!-- Cierre de la fila -->
+
+</body>
+          <style>
+
+header {
+         background-color: #2394bc;
+        }
+
+            nav a {
+            color: #2394bc ;
+            }
+
+
+ </style>
+		</ul>
+	</nav>
+</div>
+<br>
+  
+<footer class="negrita bg-custom text-center">
+  <p class="negrita text-white">RED SALUD SAS © 2023. Reservados todos los derechos.</p>
+</footer>
+
+  </html>

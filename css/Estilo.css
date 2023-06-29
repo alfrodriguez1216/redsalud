@@ -1,0 +1,98 @@
+<style>
+
+
+
+    		.navbar-nav .nav-link {
+		 color: white;
+		}
+
+		.navbar-nav .nav-link:hover {
+  		background-color: red;
+		}
+
+
+            
+
+		.nav a {
+            color: #0094e2;
+            }
+
+
+
+                .navbar-default {
+                    background-color: #0094e2;
+                    border-color: #0094e2;
+                }
+
+                .negrita {
+                  font-weight: bold;
+                }
+
+            
+                .navbar-default .navbar-nav > li > a {
+                    color: rgb(219, 203, 203);
+                    font-size: 20px
+                }
+            
+                .navbar-default .navbar-nav > li > a:hover {
+                    background-color: red;
+                }
+                 /* Estilos para el menú */
+      .nav-item {
+        background-color: #0094e2;
+        transition: background-color 0.3s ease-in-out;
+      }
+      .nav-item:hover {
+        background-color: red;
+      }
+      
+      .border-white {
+        border-color: white !important;
+      }
+
+
+      /* Estilos para el formulario */
+      #formulario {
+        margin-top: 10px;
+        border: 1px solid #0094e2;
+        padding: 10px;
+        
+      }
+
+        
+.card {
+  border-radius: 10px;
+  margin-left: 20px; /* Para alinear la caja a la izquierda del menú vertical */
+  background-color:#0094e2;
+}
+.card-header h4 {
+  margin-bottom: 0;
+  background-color: rgb(252, 2, 2);
+}
+
+.bg-custom {
+  background-color: #0094e2;
+}
+
+
+
+
+.lazul {
+  color:#0094e2
+}
+
+
+.box-link {
+  display: block;
+  padding: 10px;
+  background-color: rgb(219, 203, 203);
+  border: 1px solid rgb(219, 203, 203);
+  border-radius: 5px;
+}
+
+.box-link:hover {
+  background-color: #FF0000;
+  color: rgb(219, 203, 203);
+  transition: background-color 0.2s ease-in-out;
+}
+</style>
